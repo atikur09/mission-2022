@@ -8,7 +8,7 @@ h1{
 
 .container{
     display: flex;
-    margin-top: 60px;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -47,6 +47,10 @@ h1{
     color: #13103A;
     text-align: center;
     font-weight: 700;
+}
+.padding{
+    margin-bottom: 50px;
+    margin-top: 60px;
 }
 .cards{
     margin-right: 80px;
@@ -114,4 +118,30 @@ h1{
 }
 .paragraph{
     margin-right: 96px;
+}
+.global-community{
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: right 15px bottom -60px;
+    overflow: auto;
+}
+
+.global-community img{
+    width: 60%;
+    padding-left: 100px;
+    text-align: justify;
+    margin-left: 40px;
+}
+.community{
+    margin-left: 80px;
+}
+
+.footer{
+    background-color: #0B0D17;
+}
+
+footer h1{
+    font-family: Lobster;
+
 }
